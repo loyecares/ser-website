@@ -1,0 +1,170 @@
+$theme-colors: (
+    "dark": #000000,
+    "info": #ebebeb,
+    "primary": #ffffff,
+    "success": #505050,
+    "secondary": #282828,
+    "danger": #1a1a1a,
+    "light": #c3c3c3,
+    "warning": #5b5b5b
+);
+
+
+$container-max-widths: (
+  sm: 540px,
+  md: 800px,
+  lg: 1200px,
+  xl: 1400px
+); 
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ebebeb;
+    overflow-x: hidden;
+    background: #000000; 
+}
+
+//////////////////// HEADER SECTION //////////////////////
+////////////////////////////////////////////////////////
+
+a.nav-link {
+    font-size: 16px;
+}
+
+
+//////////////////// MAGIC SECTION //////////////////////
+////////////////////////////////////////////////////////
+
+.font-weight-bolder {
+    font-weight: 500 !important;
+}
+
+.m-border {
+    border-radius: 10px;
+}
+
+.sub-text-space {
+    line-height: 30px;
+    color: #c4c4c4;
+    font-size: 20px;
+}
+
+.film-icon {
+    position: absolute;
+    top: -40px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.commercial-icon, .content-icon {
+    position: absolute;
+    top: -40px;
+    left: 170px;
+    border-radius: 50%;
+}
+
+.com-box-shadow {
+    box-shadow: 0px 60px 250px #000000;
+}
+
+//////////////////// PROCESSES SECTION //////////////////////
+////////////////////////////////////////////////////////
+
+.line-bg {
+    background-image: url(resources/img/line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.process-img {
+    height: 450px;
+}
+
+.cus-pad {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.bend-1 {
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    transform: rotate(-5deg);
+}
+
+.bend-2 {
+    -ms-transform: rotate(5deg); /* IE 9 */
+    transform: rotate(5deg);
+}
+
+.bend-3 {
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    transform: rotate(-1deg);
+}
+
+
+.br-1 {
+    border-radius: 20px;
+}
+
+.text-1 {
+    font-size: 20px;
+}
+
+.text-2 {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #c3c3c3;
+}
+
+.learn-more {
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: 1px;
+    margin-top: 150px;
+}
+
+.ser {
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700;
+}
+
+.ser-text{
+    font-size: 16px;
+    line-height:25px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #c3c3c3;
+}
+
+.ser-bg{
+    background-image: url(https://res.cloudinary.com/muberium516/image/upload/q_30/v1629475377/Dabest/ser-bg_fkqrm4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-text { 
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+
+///////////// PAGE 2 - STORY ///////////////
+////////////////////////////////////////////
+.story-text {
+    font-size:34px;
+    line-height: 70px; 
+    color: #c3c3c3;
+}
+
+// portfolio
+
+#portfolio iframe{
+    border-radius: 30px;
+    border: 20px solid rgba(255, 255, 255, 0.05);
+}
