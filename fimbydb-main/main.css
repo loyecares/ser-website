@@ -11038,23 +11038,7 @@ color: #000;
 
 }
 
-.hero{
-  position: relative;
-  right: 0;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background: #181818;
-  background-image: url(../fimbydb-main/resources/img/kk4.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
-}
 .main-logo {
   width: 1000px;
   height: 500px;

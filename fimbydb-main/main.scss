@@ -152,7 +152,23 @@ a.nav-link {
     padding-top: 200px;
     padding-bottom: 250px;
 }
-
+.hero{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #181818;
+    background-image: url(https://res.cloudinary.com/loye/image/upload/v1641709525/kk4_2_xamdsz.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
 
 ///////////// PAGE 2 - STORY ///////////////
 ////////////////////////////////////////////
